@@ -1,3 +1,3 @@
 def call(){
-    sh 'mvn clean install -DskipTests'
+    sh '/opt/maven/bin/mvn clean install -DskipTests'
 }
